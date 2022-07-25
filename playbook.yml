@@ -1,10 +1,10 @@
-- hosts: localhost
+- hosts: all
   roles:
-      - gsoft.azure_devops_agent
+      - ansible-role-agent-devops
   vars:
     - az_devops_agent_role: build
     - az_devops_accountname: fmossamih	
     - az_devops_agent_username: faridagent3
     - az_devops_agent_user: farid2
     - az_devops_agent_pool_name: Ansible_Agent
-    - az_devops_accesstoken: d36zjmlrfmco6pw5ide7xgkdymdkxy3dq5eugjmmmbd5xg7fbgea
+    - az_devops_accesstoken: ************************
